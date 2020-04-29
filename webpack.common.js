@@ -21,7 +21,8 @@ module.exports = {
 					
 						"plugins" : [
 							["@babel/plugin-proposal-class-properties", { "loose": true }],
-							["@babel/plugin-syntax-class-properties"]
+							["@babel/plugin-syntax-class-properties"],
+							["@babel/transform-runtime"]
 						]
 					}
 				}
